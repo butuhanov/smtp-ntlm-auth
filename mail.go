@@ -1,5 +1,4 @@
-// 从beego里抄来的
-package mail
+package smtp
 
 import (
 	"bytes"
