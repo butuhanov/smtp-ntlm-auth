@@ -1,4 +1,4 @@
-module github.com/cmarkh/smtp
+module github.com/cmarkh/SMTP
 
 go 1.15
 
