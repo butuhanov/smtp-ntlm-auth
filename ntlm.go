@@ -12,7 +12,7 @@ import (
 	"strings"
 	"unicode/utf16"
 
-	"golang.org/x/net/smtp"
+	"net/smtp"
 
 	"github.com/ThomsonReutersEikon/go-ntlm/ntlm"
 	"golang.org/x/crypto/md4"
