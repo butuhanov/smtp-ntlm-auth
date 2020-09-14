@@ -2,8 +2,9 @@ package smtp
 
 import (
 	"errors"
-	"golang.org/x/net/smtp"
 	"strings"
+
+	"github.com/cmarkh/SMTP/golang.org/x/net/smtp"
 )
 
 type loginAuth struct {
