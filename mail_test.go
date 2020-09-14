@@ -3,7 +3,7 @@ package smtp
 import (
 	"testing"
 
-	"net/smtp"
+	"golang.org/x/net/smtp"
 )
 
 func Test_SendMail(t *testing.T) {

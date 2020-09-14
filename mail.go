@@ -17,7 +17,7 @@ import (
 	"strings"
 	"sync"
 
-	"net/smtp"
+	"golang.org/x/net/smtp"
 )
 
 const (
