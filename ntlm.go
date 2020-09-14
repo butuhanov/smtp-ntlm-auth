@@ -14,7 +14,7 @@ import (
 
 	"net/smtp"
 
-	"github.com/ThomsonReutersEikon/go-ntlm/ntlm"
+	"github.com/cmarkh/SMTP/ThomsonReutersEikon/go-ntlm/ntlm"
 	"golang.org/x/crypto/md4"
 )
 
