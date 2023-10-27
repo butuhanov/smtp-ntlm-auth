@@ -5,7 +5,7 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/cmarkh/SMTP/ThomsonReutersEikon/go-ntlm/ntlm"
+	"github.com/butuhanov/smtp-ntlm-auth/ThomsonReutersEikon/go-ntlm/ntlm"
 )
 
 func main() {

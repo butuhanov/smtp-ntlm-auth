@@ -13,7 +13,7 @@ the client and the server, for our use we hardcoded a supported set of negotiati
 ## Sample Usage as NTLM Client
 
 ```go
-import "github.com/cmarkh/SMTP/ThomsonReutersEikon/go-ntlm/ntlm"
+import "github.com/butuhanov/smtp-ntlm-auth/ThomsonReutersEikon/go-ntlm/ntlm"
 
 session, err = ntlm.CreateClientSession(ntlm.Version2, ntlm.ConnectionlessMode)
 session.SetUserInfo("someuser","somepassword","somedomain")
