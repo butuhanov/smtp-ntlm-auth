@@ -3,7 +3,7 @@ package smtp
 import (
 	"testing"
 
-	"github.com/cmarkh/SMTP/golang.org/x/net/smtp"
+	"github.com/butuhanov/smtp-ntlm-auth/golang.org/x/net/smtp"
 )
 
 func Test_SendMail(t *testing.T) {
@@ -32,7 +32,7 @@ func Test_SendMail(t *testing.T) {
 
 	email.To = []string{`farmerx@163.com`}
 	email.Subject = `send mail success`
-	email.Text = "尊敬的用户：\r\n   您好，附件中是您订阅的报表，请注意查收。"
+	email.Text = "Дорогой пользователь：\r\n   Здравствуйте, прикрепленный отчет - это отчет, на который вы подписались"
 	//email.AttachFile(reportFile)
 	if err := email.Send(); err != nil {
 		t.Error(err)

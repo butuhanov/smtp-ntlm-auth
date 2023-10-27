@@ -12,10 +12,10 @@ import (
 	"strings"
 	"unicode/utf16"
 
-	"github.com/cmarkh/SMTP/golang.org/x/net/smtp"
-	"github.com/cmarkh/smtp/golang.org/x/crypto/md4"
+	"github.com/butuhanov/smtp-ntlm-auth/golang.org/x/crypto/md4"
+	"github.com/butuhanov/smtp-ntlm-auth/golang.org/x/net/smtp"
 
-	"github.com/cmarkh/SMTP/ThomsonReutersEikon/go-ntlm/ntlm"
+	"github.com/butuhanov/smtp-ntlm-auth/ThomsonReutersEikon/go-ntlm/ntlm"
 )
 
 const (

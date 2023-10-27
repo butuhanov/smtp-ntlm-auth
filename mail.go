@@ -17,7 +17,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/cmarkh/SMTP/golang.org/x/net/smtp"
+	"github.com/butuhanov/smtp-ntlm-auth/golang.org/x/net/smtp"
 )
 
 const (
